@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "project-iot-9191a": {
+      "hosting": {
+        "fotosFirebase": [
+          "project-iot-9191a"
+        ]
+      }
+    }
+  }
+}

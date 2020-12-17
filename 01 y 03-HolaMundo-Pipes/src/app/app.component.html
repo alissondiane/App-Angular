@@ -1,0 +1,7 @@
+<app-header></app-header>
+<div class="container m-5">
+<button (click) = "mostrarComponents()" type="button" class="btn btn-primary">Pipe</button>
+<app-body *ngIf="!mostrar"></app-body>
+<app-pipe *ngIf="mostrar"></app-pipe>
+</div>
+<app-footer></app-footer>
